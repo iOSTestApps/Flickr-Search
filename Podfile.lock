@@ -1,7 +1,7 @@
 PODS:
   - KZAsserts (1.0)
   - SDWebImage (3.7.1):
-    - SDWebImage/Core
+    - SDWebImage/Core (= 3.7.1)
   - SDWebImage/Core (3.7.1)
 
 DEPENDENCIES:
@@ -9,7 +9,7 @@ DEPENDENCIES:
   - SDWebImage
 
 SPEC CHECKSUMS:
-  KZAsserts: 008f2f37ba7dcb4ce87bb262a7f91406812a66e5
-  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  KZAsserts: 6e613b569a33582dc94cf7a1f34a2c6d870982a7
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.37.1

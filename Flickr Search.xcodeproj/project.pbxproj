@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54549E8CBDA68C3995E4D071 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7B3F1ACD19AD24CB00DE7928 /* Flickr Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3F1AD019AD24CB00DE7928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B3F1AD219AD24CB00DE7928 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,7 +56,7 @@
 		7B3F1B0D19AD24FE00DE7928 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
 		7B3F1B0E19AD24FE00DE7928 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 		BF704F8CA52343568726D747 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8BFF5A892384A31A9479362 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C5F67CCA891E8905EE909537 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC3E11B57D19D32B317353F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5F67CCA891E8905EE909537 /* Pods.debug.xcconfig */,
+				54549E8CBDA68C3995E4D071 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7B3F1AC419AD24CB00DE7928 = {
 			isa = PBXGroup;
 			children = (
 				7B3F1AD619AD24CB00DE7928 /* Flickr Search */,
 				7B3F1ACF19AD24CB00DE7928 /* Frameworks */,
 				7B3F1ACE19AD24CB00DE7928 /* Products */,
-				D8BFF5A892384A31A9479362 /* Pods.xcconfig */,
+				1BC3E11B57D19D32B317353F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,7 +264,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A9378463030341648820BBBD /* Check Pods Manifest.lock */ = {
@@ -380,7 +390,7 @@
 		};
 		7B3F1AFA19AD24CB00DE7928 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BFF5A892384A31A9479362 /* Pods.xcconfig */;
+			baseConfigurationReference = C5F67CCA891E8905EE909537 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,7 +404,7 @@
 		};
 		7B3F1AFB19AD24CB00DE7928 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BFF5A892384A31A9479362 /* Pods.xcconfig */;
+			baseConfigurationReference = 54549E8CBDA68C3995E4D071 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

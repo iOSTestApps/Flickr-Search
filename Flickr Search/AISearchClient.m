@@ -11,8 +11,7 @@
 #import <KZAsserts.h>
 #import "NSString+URLEncode.h"
 
-#error Add your Flickr API Key below.
-static NSString *const AISearchClientFlickrAPIKey = @"<YOUR_FLICKR_API_KEY>";
+static NSString *const AISearchClientFlickrAPIKey = @"5ec52c1532b48da51f5549365aa7e92f";
 static NSString *const AISearchClientFlickrAPIURL = @"https://api.flickr.com/";
 static NSString *const AISearchClientFlickrAPIPath = @"services/rest/";
 
