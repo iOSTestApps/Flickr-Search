@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		596FF64316D3883998BA9F00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB2197267919101FD7BC63C /* SystemConfiguration.framework */; };
 		7B3F1AD119AD24CB00DE7928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F1AD019AD24CB00DE7928 /* Foundation.framework */; };
 		7B3F1AD319AD24CB00DE7928 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F1AD219AD24CB00DE7928 /* CoreGraphics.framework */; };
 		7B3F1AD519AD24CB00DE7928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F1AD419AD24CB00DE7928 /* UIKit.framework */; };
@@ -23,9 +24,14 @@
 		7B3F1B1519AD24FE00DE7928 /* AISearchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F1B0C19AD24FE00DE7928 /* AISearchCollectionViewController.m */; };
 		7B3F1B1619AD24FE00DE7928 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F1B0E19AD24FE00DE7928 /* NSString+URLEncode.m */; };
 		9DCC7AB191F04025A60804CF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF704F8CA52343568726D747 /* libPods.a */; };
+		CA8591D43A304A0B5C4A5786 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B911186DADDCD422B7356DCA /* CoreTelephony.framework */; };
+		CC2DB902DE3FF5884A238558 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9DD53EC2F1AF2A5FD7C825 /* AssetsLibrary.framework */; };
+		DF863A65F8D9D90282BBBB6B /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDBC57C0CC584703401C912 /* BuddyBuildSDK.framework */; };
+		FAF5EE9E79344215EE6F8444 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040C852BA25C4BA6A1FB35B /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1040C852BA25C4BA6A1FB35B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		54549E8CBDA68C3995E4D071 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7B3F1ACD19AD24CB00DE7928 /* Flickr Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3F1AD019AD24CB00DE7928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,8 +61,12 @@
 		7B3F1B0C19AD24FE00DE7928 /* AISearchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISearchCollectionViewController.m; sourceTree = "<group>"; };
 		7B3F1B0D19AD24FE00DE7928 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
 		7B3F1B0E19AD24FE00DE7928 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		9AB2197267919101FD7BC63C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ACDBC57C0CC584703401C912 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		B911186DADDCD422B7356DCA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BF704F8CA52343568726D747 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F67CCA891E8905EE909537 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EA9DD53EC2F1AF2A5FD7C825 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,11 @@
 				7B3F1AD519AD24CB00DE7928 /* UIKit.framework in Frameworks */,
 				7B3F1AD119AD24CB00DE7928 /* Foundation.framework in Frameworks */,
 				9DCC7AB191F04025A60804CF /* libPods.a in Frameworks */,
+				DF863A65F8D9D90282BBBB6B /* BuddyBuildSDK.framework in Frameworks */,
+				CC2DB902DE3FF5884A238558 /* AssetsLibrary.framework in Frameworks */,
+				FAF5EE9E79344215EE6F8444 /* CoreText.framework in Frameworks */,
+				CA8591D43A304A0B5C4A5786 /* CoreTelephony.framework in Frameworks */,
+				596FF64316D3883998BA9F00 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +124,11 @@
 				7B3F1AD419AD24CB00DE7928 /* UIKit.framework */,
 				7B3F1AE919AD24CB00DE7928 /* XCTest.framework */,
 				BF704F8CA52343568726D747 /* libPods.a */,
+				ACDBC57C0CC584703401C912 /* BuddyBuildSDK.framework */,
+				EA9DD53EC2F1AF2A5FD7C825 /* AssetsLibrary.framework */,
+				1040C852BA25C4BA6A1FB35B /* CoreText.framework */,
+				B911186DADDCD422B7356DCA /* CoreTelephony.framework */,
+				9AB2197267919101FD7BC63C /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,6 +422,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flickr Search/Flickr Search-Prefix.pch";
 				INFOPLIST_FILE = "Flickr Search/Flickr Search-Info.plist";
@@ -417,6 +441,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flickr Search/Flickr Search-Prefix.pch";
 				INFOPLIST_FILE = "Flickr Search/Flickr Search-Info.plist";
