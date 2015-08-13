@@ -9,10 +9,13 @@
 #import "AIAppDelegate.h"
 
 #import "AISearchCollectionViewController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @implementation AIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
